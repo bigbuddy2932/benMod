@@ -44,7 +44,8 @@ data:extend({
         }
 	  }
 	},
-	alert_icon_scale = 0.5,
+	scale_entity_info_icon = true,
+	entity_info_icon_shift = {0, 0},
 	module_specification = {
       module_slots = 4
     },
