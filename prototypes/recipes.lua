@@ -5,7 +5,7 @@ data:extend({
     icon = "__benMod__/graphics/icons/bentonium.png",
 	icon_size = 32,
     subgroup = "intermediate-product",
-    order = "a[uranium-processing]",
+    order = "c[bentonium]",
     energy_required = 5,
     enabled = true,
     ingredients =
@@ -22,7 +22,7 @@ data:extend({
     icon = "__benMod__/graphics/icons/ben-cell.png",
 	icon_size = 32,
     subgroup = "intermediate-product",
-    order = "a[bentonium]",
+    order = "c[bentonium]-[ben-cell]",
     energy_required = 10,
     enabled = true,
     ingredients =
@@ -39,7 +39,7 @@ data:extend({
     icon = "__benMod__/graphics/entity/micro-assembler.png",--WIP
 	icon_size = 128,
     subgroup = "production-machine",
-    order = "a-[assembling-machine-1]",
+    order = "aaaaaa[micro-assembler]",
     energy_required = 0.5,
     enabled = true,
     ingredients =
