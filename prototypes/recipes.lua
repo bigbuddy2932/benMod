@@ -51,5 +51,21 @@ data:extend({
     },
     result = "micro-assembler",
     result_count = 1
+  },
+  {
+    type = "recipe",
+    name = "micro-belt",
+    icon = "__benMod__/graphics/entity/micro-assembler.png",--WIP
+	icon_size = 32,
+    subgroup = "belt",
+    order = "e[micro-belt]-a[transport-belt]",
+    energy_required = 0.5,
+    enabled = true,
+    ingredients =
+    {
+      {"transport-belt", 1},
+    },
+    result = "micro-belt",
+    result_count = 4
   }
 })
